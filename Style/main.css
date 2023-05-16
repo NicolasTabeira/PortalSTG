@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../Images/pexels-pixabay-220182.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.collapse {
+    justify-content: end;
+}
+
+.navbar {
+    background-color: black;
+    background-image: url(../Images/imagenNavbar.png);
+}
+
+.navbar-toggler-icon {
+    background-color: rgba(192,192,192, 45%);
+}
+
+.container-fluid ul li a  {
+    color: aliceblue;
+    font-size: 150%;
+    text-shadow: 0px 0px 2px white;
+}
+
+.info {
+    background-color: rgba(192,192,192, 45%);
+    margin: 5%;
+    font-size: x-large;
+}
+.info p {
+    text-align: center;
+}
+
+.carousel {
+    margin: 2%;
+}
+
+.carousel-inner {
+    border-radius: 40px;
+}
